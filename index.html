@@ -1,4 +1,18 @@
 <style>
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html,header {
+    font-size: 14px;
+}
+
 #About {
     position:absolute;
     left: 30px;
@@ -55,7 +69,8 @@
 }
 
 #google_app {
-    width: 2.5%;
+    width: 30px;
+    height: 30px;
     position:absolute;
     right: 130px;
     top: 15px;
@@ -80,6 +95,20 @@
 
 
 }
+
+.logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+</style>
+
+
+
 </style>
 
 <!doctype html>
@@ -100,8 +129,11 @@
     </div>
 </header>
 <body>
-
+    <div class="logo">
+        <div><img id="googlelogo" src="og_googlelogo.png" alt="Google Logo"></div>
+    </div>
 </body>
+
 <footer>
 
 </footer>
